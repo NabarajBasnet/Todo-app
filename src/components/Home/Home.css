@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+
+
+.header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.name p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color:#FF5E00;
+    margin-left: 10px;
+}
+
+
+.take-todos{
+    display: flex;
+}
+
+.input-todo{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+.input-todo input{
+    width: 80%;
+    padding: 12px;
+    border: 2px solid #FF5E00;
+    border-radius: 20px;
+}
+.input-todo img{
+    margin-right: 30px;
+}
+
+
+
+
+/* Style todo  */
+
+.disptodos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f0f0f0;
+}
+
+.todos-box {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.show-todos {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+/* align checkboxex and todos */
+.show-todos ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.show-todos input[type="checkbox"] {
+    /* Make checkboxes rounded and colored */
+    appearance: none;
+    border: 2px solid #FF5E00; /* Border color */
+    border-radius: 50%; /* Rounded corners */
+    width: 25px; /* Checkbox size */
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.show-todos input[type="checkbox"]:checked {
+    background-color: #FF5E00; /* Background color when checked */
+}
+
+.show-todos label {
+    cursor: pointer;
+}
+.show-todos ul{
+    display: flex;
+    list-style: none;
+}
+
+
+.input-todo img{
+    cursor: pointer;
+}
+
+.search-icon img{
+    cursor: pointer;
+}
+
+.profile{
+    cursor: pointer;
+}
+
+
+/* style search bar */
+
+.search-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-icon input{
+    width: 200px;
+    padding: 7px;
+    border: 2px solid #FF5E00;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+.search-bar-top{
+    display: flex;
+    width: 100%;
+}
