@@ -65,7 +65,7 @@
 }
 
 .todos-box {
-    width: 300px;
+    width: 600px;
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
@@ -92,7 +92,7 @@
     border-radius: 50%; /* Rounded corners */
     width: 25px; /* Checkbox size */
     height: 25px;
-    margin-right: 10px;
+    margin-right: 25px;
     cursor: pointer;
     outline: none;
     transition: background-color 0.3s ease-in-out;
