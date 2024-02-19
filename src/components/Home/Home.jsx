@@ -60,6 +60,9 @@ const Home = ()=>
                                 <p>Nabaraj</p>
                             </div>
                         </div>
+                        <div className="my-name">
+                            <p>Nabaraj Basnet</p>
+                        </div>
                         <div className="search-icon">
                             {serachFlag?(
                                 <input className='search-bar-top' type='text' placeholder='Search...' value={searchQuery} onChange={(e)=>setSearchQuery(e.target.value)}/>

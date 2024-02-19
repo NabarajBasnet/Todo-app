@@ -143,3 +143,23 @@
     display: flex;
     width: 100%;
 }
+
+.todo-container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #FF5E00;
+}
+
+.search-icon input::placeholder{
+    color: #FF5E00;
+}
+
+.show-todos input::placeholder{
+    color: #FF5E00;
+}
+
+.input-todo input::placeholder{
+    color: #FF5E00;
+    font-weight: bold;
+}
